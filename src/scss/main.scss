@@ -77,14 +77,6 @@ p{
 	text-align:center;
 }
 
-
-
-
-.btx {
-	
-	background-image:url('https://www.dropbox.com/scl/fi/1hfxz1jsr2mvft4bc2w93/x.png?rlkey=u6zbiugzmetq9vn3oed2br9a3&st=huow6swa&dl=0');
-}
-
 .top{
 	@include w_h(100%,60px);
 	position:absolute;
@@ -175,7 +167,7 @@ p{
 	margin: 0 2px 50px;
 	min-width: 6px;
 	height: 160px;
-	background:conic-gradient(#079, #fff, #931, #789);
+	background:conic-gradient(#377181, #fff, #e7b9aa, #789);
 	//background:radial-gradient(#cdc8,#7898);
 	animation: animate 5s linear infinite;
 	animation-delay: calc(var(--i) * -0.5s);
