@@ -27,10 +27,6 @@ $vH:vh;
 
 body{ @include d_f-c(); background:#05627c;}
 
-// .btn{
-// 	@include d_f-c-h(0vh);
-// }
-
 
 .container{ position:relative; top:70px;}
 
@@ -83,23 +79,8 @@ p{
 
 
 
-.btn {
-	position:relative;
-	top:-250px;
-	left:180px;
-	padding:.25rem .3rem;
-	color:#3d033d;
-	font-size:18px;
-    font-weight:700;
-	text-align:center;
-	margin-bottom:1rem;
 
-	border: .2rem ridge red;
-	border-radius:.2rem .6rem .3rem;
-
-}
-
-.click-me {
+.btx {
 	
 	background-image:url('https://www.dropbox.com/scl/fi/1hfxz1jsr2mvft4bc2w93/x.png?rlkey=u6zbiugzmetq9vn3oed2br9a3&st=huow6swa&dl=0');
 }
