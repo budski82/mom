@@ -7,3 +7,5 @@ let x = [
 console.log(`I ran across ${x[1].name} in the break room. He has couldn't log in? His id: ${x[1].id} to work}`)
 
 console.table(x)
+
+export { x }
